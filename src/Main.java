@@ -7,7 +7,10 @@ public class Main {
 
         NimmSpiel n = new NimmSpiel();
 
-        n.zeichne();
+        while(true){
+            n.welcheZeileNehmenFragen();
+        }
+
 
 
     }
